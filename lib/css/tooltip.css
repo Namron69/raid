@@ -1,0 +1,25 @@
+#tip{
+    background: url(../images/tooltip/293_03.png) no-repeat 0 0;
+    padding-left: 6px;
+    opacity:0;
+    display: none;
+    position: absolute;
+}
+#tip div{
+    background: url(../images/tooltip/293_03.png) no-repeat 100% -35px;
+    padding-right: 6px;
+}
+#tip div div{
+    background: url(../images/tooltip/293_03.png) repeat-x 0 -70px;
+    padding: 0;
+}
+#tip div div div{
+    background: url(../images/tooltip/293_b_09.png) no-repeat 50% 100%;
+    padding: 0 5px 0 5px;
+    height: 35px;
+    line-height: 27px;
+    color: #fff;
+    text-shadow:0 1px 0 #000;
+    font-family: Tahoma;
+    font-size: 11px;
+}

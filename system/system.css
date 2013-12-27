@@ -1,0 +1,271 @@
+#loading_info{
+    background: url(images/is_loading_img.gif) no-repeat 50% 50%;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#panel_info{
+    background: url(images/panel_info_02.png) repeat-x 0 0;
+    height: 45px;
+    top: -45px;
+    z-index: 980;
+	position: fixed;
+}
+#error_conteiner{
+    overflow: hidden;
+    height: 25px;
+}
+.panel_info_im{
+    background: url(images/panel_info_01.png) no-repeat 0 0;
+    padding-left: 29px;
+    height: 45px;
+    overflow: hidden;
+}
+.panel_info_im span{
+    color: #33789f;
+    line-height: 24px;
+    font-family: Tahoma;
+    font-size: 10px;
+    display: block;
+    height: 25px;
+    position: absolute;
+    top:-25px;
+    left: 0;
+    opacity:0;
+    font-weight: bold;
+}
+.panel_info_im span.error_num_0{
+    top:0px;
+    opacity:1
+}
+.info_nav{
+    list-style: none;
+    padding: 8px 10px 0 0;
+    margin: 0;
+}
+.info_nav li{
+    display:inline-block;
+    height: 10px;
+    width: 10px;
+    background: url(images/default_info_05.png) no-repeat 0 0;
+    list-style: outside;
+    margin-right: 3px;
+    cursor: pointer;
+    float: right;
+    opacity:0
+}
+
+.info_nav li.active,.info_nav li:hover{
+    background: url(images/active_info_05.png) no-repeat 0 0;
+}
+.hide_error{
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#modal_win{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    z-index: 1050;
+    background: url(images/bg_layer_moduls_67.png);
+}
+.modal_win{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    opacity:0;
+    min-width: 400px;
+}
+.title_win{
+    padding: 12px 0 0 5px;
+    margin: 0;
+    display: block;
+    color: #cdcdcd;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 36px;
+    display: block;
+}
+.conteiner_modal{
+    padding: 5px;
+    color: #cdcdcd;
+    font-family: "Tahoma";
+    font-size: 11px;
+}
+
+#modal_buttons{
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+#modal_buttons .win_button{
+    border: 1px solid #131313;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow:0px 1px 0px rgb(44, 44, 44);
+	-moz-box-shadow:0px 1px 0px rgb(44, 44, 44);
+	-webkit-box-shadow:0px 1px 0px rgb(44, 44, 44);
+    background-color: rgb(255, 255, 255);
+	background-image:linear-gradient(-90deg, rgb(35, 35, 35), rgb(31, 31, 31));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(35, 35, 35)), to(rgb(31, 31, 31)));
+	background-image:-moz-linear-gradient(-90deg, rgb(35, 35, 35), rgb(31, 31, 31));
+    padding: 3px 5px;
+    color: #666666;
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+#modal_buttons .win_button:hover{
+    background-color: rgb(255, 255, 255);
+	background-image:linear-gradient(-90deg, rgb(49, 49, 49), rgb(43, 43, 43));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(49, 49, 49)), to(rgb(43, 43, 43)));
+	background-image:-moz-linear-gradient(-90deg, rgb(49, 49, 49), rgb(43, 43, 43));
+    color: #a8a8a8;
+}
+
+
+.top_big_win{
+    background: url(../lib/images/widget/modal/modal_03.png) no-repeat 0 0;
+    padding-left: 18px;
+}
+.top_big_win_2{
+    background: url(../lib/images/widget/modal/modal_06.png) no-repeat 100% 0;
+    padding-right: 18px;
+}
+.top_big_win_3{
+    background: url(../lib/images/widget/modal/modal_04.png) repeat-x 0 0;
+    height: 51px;
+    position: relative;
+}
+.bot_big_win{
+    background: url(../lib/images/widget/modal/modal_13.png) no-repeat 0 0;
+    padding-left: 18px;
+}
+.bot_big_win_2{
+    background: url(../lib/images/widget/modal/modal_16.png) no-repeat 100% 0;
+    padding-right: 18px;
+}
+.bot_big_win_3{
+    background: url(../lib/images/widget/modal/modal_14.png) repeat-x 0 0;
+    height: 18px;
+}
+.cen_big_win{
+    background: url(../lib/images/widget/modal/modal_08.png) repeat-y 0 0;
+    padding-left: 14px;
+}
+.cen_big_win_2{
+    background: url(../lib/images/widget/modal/modal_10.png) repeat-y 100% 0;
+    padding-right: 14px;
+}
+.cen_big_win_3{
+    background: #232323;
+    padding: 5px;
+}
+#warning_modal{
+    background: url(images/form/warning/line_bg.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+}
+#warning_win{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 998;
+    width: 385px;
+    margin-left: -192px;
+}
+#warning_win .top{
+    background: url(images/form/warning/bg_05.png) no-repeat 0 76px;
+    max-height: 216px;
+}
+#warning_win .content{
+    background: url(images/form/warning/bg_03.png) no-repeat 0 0;
+    min-height: 76px;
+    max-height: 216px;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+#warning_win .bot{
+    background: url(images/form/warning/bg_06.png) no-repeat 0 0;
+    height: 74px;
+    padding: 0 20px;
+    padding-top: 15px;
+}
+.warning_conteiner{
+    padding: 35px 20px 0 85px;
+    color: #c60d00;
+    position: relative;
+}
+.warning_title{
+    display: block;
+    background: url(images/form/warning/warning_12.png) no-repeat 0 0;
+    height: 15px;
+    margin-bottom: 3px;
+}
+.warning_ico{
+    background: url(images/form/warning/ico_06.png) no-repeat 0 0;
+    height: 51px;
+    width: 56px;
+    position: absolute;
+    left: 22px;
+    top: 35px;
+}
+#warning_buttons .w_button{
+    background: url(images/form/warning/button_16.png) no-repeat 0 0;
+    height: 24px;
+    width: 67px;
+    color: #c60d00;
+    font-family: Tahoma;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right;
+    margin-left: 5px;
+}
+#warning_buttons .w_button:hover{
+    background-position: 0 -24px;
+}
+.show_error_layer_bg{
+    background: url(images/error_bg_top.png) repeat-x 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 79px;
+    z-index: 900;
+    display: none;
+}
+.show_error_text{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 7px;
+    z-index: 901;
+}
+.show_error_text div{
+    text-align: center;
+    color: #fff;
+}

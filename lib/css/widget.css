@@ -1,0 +1,296 @@
+.w_info_wrap{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 471px;
+    margin-left: -235px;
+}
+.w_info_top{
+    background: url(../images/widget/info_widget_39.png) no-repeat 0 0;
+    height: 67px;
+}
+.w_info_bot{
+    background: url(../images/widget/info_widget_43.png) no-repeat 0 100%;
+    min-height: 40px;
+    padding: 0 35px;
+    padding-bottom: 65px;
+    color: #957171;
+    font-size: 10px;
+}
+.w_info_top h3{
+    padding: 0;
+    margin: 0;
+    line-height: 58px;
+    color: #fff;
+    padding-left: 90px;
+    text-shadow: 0 1px 1px #842123;
+    text-transform: uppercase;
+    font-size: 12px;
+    visibility: visible;
+}
+
+
+.w_login_bg{
+    background: url(../images/widget/login_bg_61.png);
+}
+.w_login_wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 298px;
+    margin-left: -149px;
+}
+.w_login_top{
+    background: url(../images/widget/login_bg_31.png) no-repeat 0 0;
+    height: 49px;
+}
+.w_login_bot{
+    background: url(../images/widget/login_bg_45.png) no-repeat 0 0;
+    height: 19px;
+}
+.w_login_cen{
+    background: url(../images/widget/login_bg_37.png) repeat-y 0 0;
+    padding: 0 32px;
+}
+.w_login_cen input{
+    background: url(../images/widget/login_tools_40.png) no-repeat 0 0;
+    width: 217px;
+    height: 33px;
+    padding: 0 5px;
+    margin: 0;
+    line-height: 33px;
+    color: #000;
+    border: 0;
+    margin-bottom: 8px;
+    font-family: Verdana,Tahoma;
+    font-size: 11px;
+}
+.w_login_btn{
+    background: url(../images/widget/login_tools_47.png) no-repeat 0 0;
+    width: 91px;
+    height: 29px;
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+}
+.modal_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/widget/code/code_bg_23.png);
+    z-index: 599;
+}
+.modal_wins{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    z-index: auto;
+}
+.top_win_l{
+    background: url(../images/widget/modal/modal_03.png) no-repeat 0 0;
+    padding-left: 18px;
+}
+.top_win_r{
+    background: url(../images/widget/modal/modal_06.png) no-repeat 100% 0;
+    padding-right: 18px;
+}
+.top_win_c{
+    background: url(../images/widget/modal/modal_04.png) repeat-x 0 0;
+    height: 51px;
+    position: relative;
+}
+.top_win_c div.top_h{
+    padding-top: 11px;
+    height: 40px;
+    padding-left: 4px;
+}
+.top_win_c div.top_h h3{
+    color: #fff;
+    visibility: visible;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-shadow: none;
+    list-style: none;
+    font-weight: bold;
+}
+.btn_win_li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+}
+.btn_win_li li{
+    display: inline-block;
+    height: 21px;
+    width: 20px;
+    background: url(../images/widget/modal/btn_22.png) no-repeat 0 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.btn_win_li li span{
+    display: block;
+    height: 21px;
+    background: url(../images/widget/modal/btn_d_22.png) no-repeat -20px 0;
+}
+.btn_win_li li:hover{
+    background-position: -20px 0;
+}
+.btn_win_li li:first-child span{
+    background-position: 0 0;
+}
+.bot_win_l{
+    background: url(../images/widget/modal/modal_13.png) no-repeat 0 0;
+    padding-left: 18px;
+}
+.bot_win_r{
+    background: url(../images/widget/modal/modal_16.png) no-repeat 100% 0;
+    padding-right: 18px;
+}
+.bot_win_c{
+    background: url(../images/widget/modal/modal_14.png) repeat-x 0 0;
+    height: 18px;
+}
+.cen_win_l{
+    background: url(../images/widget/modal/modal_08.png) repeat-y 0 0;
+    padding-left: 13px;
+}
+.cen_win_r{
+    background: url(../images/widget/modal/modal_10.png) repeat-y 100% 0;
+    padding-right: 13px;
+}
+.data_win{
+    overflow: hidden;
+    padding: 5px 10px 0 10px;
+    background: #232323;
+}
+.pad_data_win{
+    
+}
+
+
+.wcode_bg{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/widget/code/code_bg_23.png);
+}
+.wcode{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+}
+.wcode div.tl{
+    background: url(../images/widget/code/code_17.png) no-repeat 0 0;
+    padding-left: 16px;
+}
+.wcode div.tr{
+    background: url(../images/widget/code/code_20.png) no-repeat 100% 0;
+    padding-right: 16px;
+}
+.wcode div.tc{
+    background: url(../images/widget/code/code_18.png) repeat-x 0 0;
+    height: 17px;
+}
+.wcode div.tc div.close{
+    background: url(../images/widget/code/code_close_31.png) no-repeat 0 0;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    width: 12px;
+    height: 13px;
+    cursor: pointer;
+}
+.wcode div.bl{
+    background: url(../images/widget/code/code_50.png) no-repeat 0 0;
+    padding-left: 16px;
+}
+.wcode div.br{
+    background: url(../images/widget/code/code_53.png) no-repeat 100% 0;
+    padding-right: 16px;
+}
+.wcode div.bc{
+    background: url(../images/widget/code/code_51.png) repeat-x 0 0;
+    height: 17px;
+}
+.wcode div.cl{
+    background: url(../images/widget/code/code_22.png) repeat-y 0 0;
+    padding-left: 16px;
+}
+.wcode div.cr{
+    background: url(../images/widget/code/code_24.png) repeat-y 100% 0;
+    padding-right: 16px;
+}
+.wcode div.cc{
+    background-color: #232323;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.minimodal_bg{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.minimodal{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+}
+.minimodal div.tl{
+    background: url(../images/widget/minimodal/minimodal_54.png) no-repeat 0 0;
+    padding-left: 39px;
+}
+.minimodal div.tr{
+    background: url(../images/widget/minimodal/minimodal_57.png) no-repeat 100% 0;
+    padding-right: 39px;
+}
+.minimodal div.tc{
+    background: url(../images/widget/minimodal/minimodal_55.png) repeat-x 0 0;
+    height: 39px;
+}
+.minimodal div.bl{
+    background: url(../images/widget/minimodal/minimodal_79.png) no-repeat 0 0;
+    padding-left: 39px;
+}
+.minimodal div.br{
+    background: url(../images/widget/minimodal/minimodal_82.png) no-repeat 100% 0;
+    padding-right: 39px;
+}
+.minimodal div.bc{
+    background: url(../images/widget/minimodal/minimodal_80.png) repeat-x 0 0;
+    height: 39px;
+}
+.minimodal div.cl{
+    background: url(../images/widget/minimodal/minimodal_59.png) repeat-y 0 0;
+    padding-left: 39px;
+}
+.minimodal div.cr{
+    background: url(../images/widget/minimodal/minimodal_61.png) repeat-y 100% 0;
+    padding-right: 39px;
+}
+.minimodal div.cc{
+    background-color: #fff;
+    max-height: 260px;
+    max-width: 500px;
+    overflow: auto;
+    color: #767676;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.interface{
+    background: url(../images/interface/bg.png);
+}
+.interface div.bar{
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    background: url(../images/interface/bar.png) no-repeat 0 0;
+}
+.interface div.bar ul{
+    padding-left: 30px;
+    cursor: default;
+}
+.interface div.bar ul li{
+    font-size: 14px;
+    font-family: Arial;
+    color: #989898;
+    cursor: pointer;
+    padding-top: 2px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../images/interface/li.png) no-repeat 0 60%;
+    padding-left: 15px;
+}
+.interface div.bar ul li:hover{
+    color: #cccccc;
+}
+.interface div.bar ul li:first-child{
+    background: transparent;
+    padding-left: 0;
+}
+.interface div.close{
+    background: url(../images/interface/close.png) no-repeat 100% 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.interface div.i_wrap{
+    padding-top: 40px;
+}
+.interface div.i_content{
+    overflow: hidden;
+}
